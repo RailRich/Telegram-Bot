@@ -6,7 +6,7 @@ import telebot
 from telebot import types
 
 # Укажем токен телеграм-бота из BotFather'а и зададим режим форматирования (parse_mode) с помощью HTML-тегов.
-bot = telebot.TeleBot(token='7662238864:AAFe_NoxYp9Le58QVXHXFxRZ0WbW_AwrzuU', parse_mode='html')
+bot = telebot.TeleBot(token='bot_token', parse_mode='html')
 
 # Массив с доступными расширениями файлов. Можно изменить, и добавятся/удалятся кнопки выбора на клавиатуре.
 formats = ['.jpg', '.png', '.svg', '.gif', '.ico', '.mp4', '.avi', '.webm', '.doc', '.docx', '.xls', '.xlsx', '.txt', '.pdf', '.css', '.html', '.js', '.json', '.zip', '.rar']
